@@ -5,7 +5,7 @@ The repository contains personal projects prepared during computational finance 
 Pricing European call and put options on a (continuous) dividend paying stock using the Black-Scholes-Merton (BSM) formula, Fast Fourier Transform (FFT) for the BSM, Heston and Variance Gamma models including model calibration with the BSM prices as a reference, and Monte Carlo simulations. Calculations of selected Greeks and implied volatility using the Newton-Raphson and Brent's methods are also presented.
 
 
-02_PRACTICE_OptionPricing_Vol_VaR_ES.ipynb:
+02_PRACTICE_OptionPricing_Vol_VaR_ES_ModelValid.ipynb:
 
 1. Two stocks data from within one year long time period and options chain load with initial formatting, analysis and visualization.
 2. Introduction of the Black-Scholes-Merton (BSM) model for a non-dividend paying stock with determination of its parameters, i.e. the spot price and risk-free interest rate.
@@ -15,6 +15,10 @@ Pricing European call and put options on a (continuous) dividend paying stock us
 6. The BSM option prices for the Tesla stocks using the calculated implied volatility - comparison with the YF data.
 7. Value at risk (VaR) and expected shortfall (ES) calculations for a two-asset portfolio with the use of the historical, variance-covariance (parametric) and Monte-Carlo methods.
 8. Model validation of the VaR calculations for a two-asset portfolio using ANOVA, backtesting via Kupiec & Christoffersen tests, ES analysis and stress testing.
+
+02a_PRACTICE_ModelValid_presentation.pdf
+
+A presentation on 'Model validation of the value at risk calculations – two-asset portfolio case study' summarizing results of analyses conducted in point 8 of notebook 02.
 
 
 03_PRACTICE_PortfolioOptimization.ipynb:
