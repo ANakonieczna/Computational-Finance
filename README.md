@@ -13,7 +13,8 @@ Pricing European call and put options on a (continuous) dividend paying stock us
 4. The BSM option prices for the Tesla stocks using historical volatility - comparison with the YF data.
 5. Implied volatility for the Tesla options using the Brent's method - comparison with the YF data.
 6. The BSM option prices for the Tesla stocks using the calculated implied volatility - comparison with the YF data.
-7. Value at risk and expected shortfall calculations for a two-asset portfolio with the use of the historical, variance-covariance (parametric) and Monte-Carlo methods.
+7. Value at risk (VaR) and expected shortfall (ES) calculations for a two-asset portfolio with the use of the historical, variance-covariance (parametric) and Monte-Carlo methods.
+8. Model validation of the VaR calculations for a two-asset portfolio using ANOVA, backtesting via Kupiec & Christoffersen tests, ES analysis and stress testing.
 
 
 03_PRACTICE_PortfolioOptimization.ipynb:
