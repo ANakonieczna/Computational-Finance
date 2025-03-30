@@ -12,8 +12,9 @@ The repository contains personal projects prepared during computational finance 
 5. Implied volatility for the Tesla options using the Brent's method - comparison with the YF data.
 6. The BSM option prices for the Tesla stocks using the calculated implied volatility - comparison with the YF data.
 7. Principal component analysis (PCA) in volatility modelling & option pricing.
-8. Value at risk (VaR) and expected shortfall (ES) calculations for a two-asset portfolio with the use of the historical, variance-covariance (parametric) and Monte-Carlo methods.
-9. Model validation of the VaR calculations for a two-asset portfolio using ANOVA, backtesting via Kupiec & Christoffersen tests, ES analysis and stress testing.
+8. Martingales in the Monte-Carlo option pricing for the Tesla stocks.
+9. Value at risk (VaR) and expected shortfall (ES) calculations for a two-asset portfolio with the use of the historical, variance-covariance (parametric) and Monte-Carlo methods.
+10. Model validation of the VaR calculations for a two-asset portfolio using ANOVA, backtesting via Kupiec & Christoffersen tests, ES analysis and stress testing.
 
 
 03_PRACTICE_PortfolioOptimization.ipynb
